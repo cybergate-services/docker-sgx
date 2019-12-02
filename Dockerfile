@@ -1,5 +1,7 @@
 FROM ubuntu:bionic
 
+MAINTAINER "Chinthaka Deshapriya <chinthaka@cybergate.lk"
+
 WORKDIR /usr/src/sdk
 
 RUN apt-get update && apt-get install -yq --no-install-recommends ca-certificates build-essential ocaml ocamlbuild automake autoconf libtool wget python libssl-dev libssl-dev libcurl4-openssl-dev protobuf-compiler git libprotobuf-dev alien cmake debhelper uuid-dev libxml2-dev
